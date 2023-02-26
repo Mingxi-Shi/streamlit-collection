@@ -5,3 +5,4 @@ tushare
 numpy==1.21.2
 setuptools==58.2.0
 wheel==0.37.1
+--upgrade pip

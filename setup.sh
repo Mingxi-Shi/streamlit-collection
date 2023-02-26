@@ -11,6 +11,9 @@ echo "\
 headless = true\n\
 enableCORS=false\n\
 port = $PORT\n\
+
+[deprecation]\n\
+showPyplotGlobalUse = false\n\
 " > ~/.streamlit/config.toml
 
 wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz

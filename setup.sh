@@ -16,9 +16,9 @@ port = $PORT\n\
 showPyplotGlobalUse = false\n\
 " > ~/.streamlit/config.toml
 
-wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
-tar xvzf ta-lib-0.4.0-src.tar.gz
-cd ta-lib-0.4.0
+wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.25-src.tar.gz
+tar xvzf ta-lib-0.4.25-src.tar.gz
+cd ta-lib-0.4.25
 ./configure --prefix=/usr
 make
 sudo make install
